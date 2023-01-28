@@ -406,39 +406,42 @@ e = validator.validate(routesGeoJSON, {
   },
 });
 if (e.length) throw e;
-writeFile('./data/v1/routes.geojson', routesGeoJSON);
-writeFile('./data/v1/routes.min.geojson', routesGeoJSON);
+routesGeoJSON.features.forEach(x => {
+  writeFile("./data/v1/routes/" + x.properties.number, x.geometry.coordinates)
+})
+// writeFile('./data/v1/routes.geojson', routesGeoJSON);
+// writeFile('./data/v1/routes.min.geojson', routesGeoJSON);
 
 // Complementary JSONs
 // ===
 
 // Stops JSON
 // Convert hash to [key, value] because the validator doesn't support dynamic keys
-e = validator.validate(Object.entries(stopsJSON), {
-  $$root: true,
-  type: 'array',
-  empty: false,
-  items: {
-    type: 'tuple',
-    empty: false,
-    items: [
-      { type: 'string', empty: false },
-      {
-        type: 'tuple',
-        empty: false,
-        items: [
-          { type: 'number' },
-          { type: 'number' },
-          { type: 'string', empty: false },
-          { type: 'string', empty: false },
-        ],
-      },
-    ],
-  },
-});
-if (e.length) throw e;
-writeFile('./data/v1/stops.json', stopsJSON);
-writeFile('./data/v1/stops.min.json', stopsJSON);
+// e = validator.validate(Object.entries(stopsJSON), {
+//   $$root: true,
+//   type: 'array',
+//   empty: false,
+//   items: {
+//     type: 'tuple',
+//     empty: false,
+//     items: [
+//       { type: 'string', empty: false },
+//       {
+//         type: 'tuple',
+//         empty: false,
+//         items: [
+//           { type: 'number' },
+//           { type: 'number' },
+//           { type: 'string', empty: false },
+//           { type: 'string', empty: false },
+//         ],
+//       },
+//     ],
+//   },
+// });
+// if (e.length) throw e;
+// writeFile('./data/v1/stops.json', stopsJSON);
+// writeFile('./data/v1/stops.min.json', stopsJSON);
 
 // Services JSON
 e = validator.validate(Object.entries(servicesJSON), {
@@ -467,26 +470,26 @@ writeFile('./data/v1/services.json', servicesJSON);
 writeFile('./data/v1/services.min.json', servicesJSON);
 
 // Route Polylines
-e = validator.validate(Object.entries(routesPolylines), {
-  $$root: true,
-  type: 'array',
-  empty: false,
-  items: {
-    type: 'tuple',
-    empty: false,
-    items: [
-      { type: 'string', empty: false },
-      {
-        type: 'array',
-        empty: false,
-        items: {
-          type: 'string',
-          empty: false,
-        },
-      },
-    ],
-  },
-});
-if (e.length) throw e;
-writeFile('./data/v1/routes.json', routesPolylines);
-writeFile('./data/v1/routes.min.json', routesPolylines);
+// e = validator.validate(Object.entries(routesPolylines), {
+//   $$root: true,
+//   type: 'array',
+//   empty: false,
+//   items: {
+//     type: 'tuple',
+//     empty: false,
+//     items: [
+//       { type: 'string', empty: false },
+//       {
+//         type: 'array',
+//         empty: false,
+//         items: {
+//           type: 'string',
+//           empty: false,
+//         },
+//       },
+//     ],
+//   },
+// });
+// if (e.length) throw e;
+// writeFile('./data/v1/routes.json', routesPolylines);
+// writeFile('./data/v1/routes.min.json', routesPolylines);

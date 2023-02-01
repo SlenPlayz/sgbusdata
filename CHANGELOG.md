@@ -1,3 +1,15 @@
+# 1 February 2023
+
+## Services count change: 533 ⮕ 534
+
+### Services added: 1
+
+- `856A` Woodlands Int → W'Lands Train Checkpt
+
+## First/last timings changed
+
+Affected services: `39`, `856A`, `856B`
+
 # 8 January 2023
 
 ## Stops count change: 5086 ⮕ 5089

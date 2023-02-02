@@ -367,17 +367,8 @@ let e = validator.validate(stopsGeoJSON, {
   },
 });
 if (e.length) throw e;
-let stopsParsed = []
-stopsGeoJSON.features.forEach((x) => {
-  stopsParsed.push({
-    Name: x.properties.name,
-    Services: x.properties.services,
-    id: x.properties.number,
-    cords: x.geometry.coordinates,
-  });
-});
-writeFile('./data/v1/stops.json', stopsParsed);
-writeFile('./data/v1/stops.min.json', stopsParsed);
+writeFile('./data/v1/stops.geojson', stopsGeoJSON);
+writeFile('./data/v1/stops.min.geojson', stopsGeoJSON);
 
 // Routes GeoJSON
 const routesGeoJSON = {

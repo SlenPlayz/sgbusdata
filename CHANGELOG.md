@@ -1,3 +1,27 @@
+# 1 March 2023
+
+## Services count change: 534 ⮕ 535
+
+### Services added: 1
+
+- `856B` W'lands Nth Stn → Aft Admiral Hill
+
+### Bus Stop Changes To Routes: 9
+
+- `109` S'Goon Int ⇄ Changi Village Ter: +4, -6
+- `89` Hougang Ctrl Int ⟲ 3rd Cargo Agents: +4, -6
+- `59` Bishan Int ⇄ Changi Village Ter: +4, -6
+- `9` Bedok Int ⟲ 3rd Cargo Agents: +4, -8
+- `6` Pasir Ris Int ⟲ Opp Loyang Way 6: -2
+- `19` Tampines Int ⟲ 3rd Cargo Agents: +4, -6
+- `89A` Aft Punggol Rd → Airfreight Ter Bldg: +2, -4
+- `3A` Tampines Int → Blk 747A: +1
+- `89e` Hougang Ctrl Int ⇄ SATS Cargo Ter / 3rd Cargo Agents: +4, -4
+
+## First/last timings changed
+
+Affected services: `6`, `9`, `18`, `19`, `59`, `83`, `89`, `109`, `89e`, `89A`, `3A`
+
 # 1 February 2023
 
 ## Services count change: 533 ⮕ 534

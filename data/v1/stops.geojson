@@ -48785,7 +48785,8 @@
 				"name": "Khalsa Crescent Drug Rehab Ctr",
 				"road": "Admiralty Rd West",
 				"services": [
-					"856"
+					"856",
+					"856B"
 				]
 			},
 			"geometry": {
@@ -48823,7 +48824,8 @@
 				"name": "Bef Keramat Rd",
 				"road": "Admiralty Rd West",
 				"services": [
-					"856"
+					"856",
+					"856B"
 				]
 			},
 			"geometry": {
@@ -48861,7 +48863,8 @@
 				"name": "Opp W'Lands Auto Hub",
 				"road": "Admiralty Rd West",
 				"services": [
-					"856"
+					"856",
+					"856B"
 				]
 			},
 			"geometry": {
@@ -48899,7 +48902,8 @@
 				"name": "Aft W'Lands Ind Pk E4",
 				"road": "Admiralty Rd West",
 				"services": [
-					"856"
+					"856",
+					"856B"
 				]
 			},
 			"geometry": {
@@ -48937,7 +48941,8 @@
 				"name": "Aft Attap Valley Rd",
 				"road": "Admiralty Rd West",
 				"services": [
-					"856"
+					"856",
+					"856B"
 				]
 			},
 			"geometry": {
@@ -48977,7 +48982,8 @@
 				"services": [
 					"169",
 					"169A",
-					"856"
+					"856",
+					"856B"
 				]
 			},
 			"geometry": {
@@ -49016,7 +49022,8 @@
 				"name": "Aft Senoko Cres",
 				"road": "Senoko Rd",
 				"services": [
-					"856"
+					"856",
+					"856B"
 				]
 			},
 			"geometry": {
@@ -49055,6 +49062,7 @@
 				"road": "Senoko Dr",
 				"services": [
 					"856",
+					"856B",
 					"981"
 				]
 			},
@@ -49095,6 +49103,7 @@
 				"road": "Senoko Dr",
 				"services": [
 					"856",
+					"856B",
 					"981"
 				]
 			},
@@ -49135,6 +49144,7 @@
 				"road": "Senoko Ave",
 				"services": [
 					"856",
+					"856B",
 					"981"
 				]
 			},
@@ -49345,7 +49355,8 @@
 				"name": "W'lands Nth Stn",
 				"road": "Nth Woodlands Dr",
 				"services": [
-					"856"
+					"856",
+					"856B"
 				]
 			},
 			"geometry": {
@@ -50091,6 +50102,7 @@
 					"169",
 					"169A",
 					"856",
+					"856B",
 					"981"
 				]
 			},
@@ -63094,6 +63106,7 @@
 				"road": "Canberra Rd",
 				"services": [
 					"856",
+					"856B",
 					"859",
 					"859B",
 					"882",
@@ -63143,6 +63156,7 @@
 				"services": [
 					"656",
 					"856",
+					"856B",
 					"859",
 					"859B",
 					"981"
@@ -63185,6 +63199,7 @@
 				"road": "Canberra Rd",
 				"services": [
 					"856",
+					"856B",
 					"981"
 				]
 			},
@@ -63207,6 +63222,7 @@
 					"169",
 					"169A",
 					"856",
+					"856B",
 					"981"
 				]
 			},
@@ -63271,6 +63287,7 @@
 				"services": [
 					"167",
 					"856",
+					"856B",
 					"858",
 					"858A",
 					"980"
@@ -63295,6 +63312,7 @@
 					"169",
 					"169A",
 					"856",
+					"856B",
 					"981"
 				]
 			},
@@ -89564,6 +89582,7 @@
 					"34B",
 					"38",
 					"39",
+					"3A",
 					"518",
 					"59",
 					"8",
@@ -108403,55 +108422,6 @@
 		},
 		{
 			"type": "Feature",
-			"id": "98031",
-			"properties": {
-				"number": "98031",
-				"name": "Aft Pasir Ris Dr 3",
-				"road": "Loyang Ave",
-				"services": [
-					"109",
-					"19",
-					"59",
-					"6",
-					"89",
-					"89A",
-					"9"
-				]
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					103.96801787240187,
-					1.36722636029551
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"id": "98039",
-			"properties": {
-				"number": "98039",
-				"name": "Bef New Loyang Lk",
-				"road": "Loyang Ave",
-				"services": [
-					"109",
-					"19",
-					"59",
-					"6",
-					"89",
-					"9"
-				]
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					103.96847160564306,
-					1.3673740332815
-				]
-			}
-		},
-		{
-			"type": "Feature",
 			"id": "98041",
 			"properties": {
 				"number": "98041",
@@ -108496,55 +108466,6 @@
 				"coordinates": [
 					103.97064054814314,
 					1.36955111611083
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"id": "98051",
-			"properties": {
-				"number": "98051",
-				"name": "Bef Loyang Way",
-				"road": "Loyang Ave",
-				"services": [
-					"109",
-					"19",
-					"59",
-					"89",
-					"89A",
-					"89e",
-					"9"
-				]
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					103.97371333299213,
-					1.37300166698251
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"id": "98059",
-			"properties": {
-				"number": "98059",
-				"name": "Aft Loyang Way",
-				"road": "Loyang Ave",
-				"services": [
-					"109",
-					"19",
-					"59",
-					"89",
-					"89e",
-					"9"
-				]
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					103.97437194693713,
-					1.37320003118402
 				]
 			}
 		},
@@ -108843,7 +108764,14 @@
 				"name": "Krislite Bldg",
 				"road": "Loyang Way",
 				"services": [
-					"6"
+					"109",
+					"19",
+					"59",
+					"6",
+					"89",
+					"89A",
+					"89e",
+					"9"
 				]
 			},
 			"geometry": {
@@ -108862,7 +108790,13 @@
 				"name": "Opp Krislite Bldg",
 				"road": "Loyang Way",
 				"services": [
-					"6"
+					"109",
+					"19",
+					"59",
+					"6",
+					"89",
+					"89e",
+					"9"
 				]
 			},
 			"geometry": {
@@ -108881,7 +108815,14 @@
 				"name": "Bef Loyang Way 1",
 				"road": "Loyang Way",
 				"services": [
-					"6"
+					"109",
+					"19",
+					"59",
+					"6",
+					"89",
+					"89A",
+					"89e",
+					"9"
 				]
 			},
 			"geometry": {
@@ -108900,7 +108841,13 @@
 				"name": "Aft Loyang Way 1",
 				"road": "Loyang Way",
 				"services": [
-					"6"
+					"109",
+					"19",
+					"59",
+					"6",
+					"89",
+					"89e",
+					"9"
 				]
 			},
 			"geometry": {
@@ -109098,55 +109045,6 @@
 				"coordinates": [
 					103.97468689087003,
 					1.37796803000431
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"id": "98231",
-			"properties": {
-				"number": "98231",
-				"name": "Loyang Ind Est",
-				"road": "Loyang Ave",
-				"services": [
-					"109",
-					"19",
-					"59",
-					"89",
-					"89A",
-					"89e",
-					"9"
-				]
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					103.97184133530571,
-					1.37118600522884
-				]
-			}
-		},
-		{
-			"type": "Feature",
-			"id": "98239",
-			"properties": {
-				"number": "98239",
-				"name": "Opp Loyang Ind Est",
-				"road": "Loyang Ave",
-				"services": [
-					"109",
-					"19",
-					"59",
-					"89",
-					"89e",
-					"9"
-				]
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [
-					103.97258859531347,
-					1.37149806503652
 				]
 			}
 		},

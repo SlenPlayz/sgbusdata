@@ -1,3 +1,21 @@
+# 1 April 2023
+
+### Services added: 1
+
+- `102A` Sengkang Stn → Opp Blk 461B
+
+### Services removed: 1
+
+- `130A` Ang Mo Kio Int → Blk 25
+
+### Bus Stop Changes To Routes: 1
+
+- `132` Hougang Ctrl Int ⇄ Bt Merah Int: -3
+
+## First/last timings changed
+
+Affected services: `130A`, `39`, `67`, `132`, `178`, `979`, `102A`
+
 # 1 March 2023
 
 ## Services count change: 534 ⮕ 535

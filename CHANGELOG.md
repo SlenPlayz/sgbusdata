@@ -1,3 +1,13 @@
+# 1 May 2023
+
+### Bus Stop Changes To Routes: 1
+
+- `970` Bt Panjang Int ⇄ Shenton Way Ter: +1
+
+## First/last timings changed
+
+Affected services: `5`, `41`, `49`, `51`, `64`, `66`, `77`, `78`, `79`, `97`, `98`, `106`, `109`, `123`, `156`, `175`, `186`, `195`, `334`, `335`, `882`, `941`, `947`, `963`, `965`, `970`, `990`, `12e`, `106A`, `78A`, `79A`, `98M`, `98B`, `98A`, `851e`, `960e`, `189A`, `854e`
+
 # 1 April 2023
 
 ### Services added: 1

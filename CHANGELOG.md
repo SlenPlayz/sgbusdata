@@ -1,3 +1,14 @@
+# 1 June 2023
+
+### Bus Stop Changes To Routes: 2
+
+- `900A` Woodlands Int ⟲ S'pore Sports Sch: -1
+- `35` Bedok Int ⟲ Opp DB Schenker: +1
+
+## First/last timings changed
+
+Affected services: `18`, `33`, `35`, `53`, `63`, `64`, `80`, `81`, `93`, `113`, `169`, `235`, `325`, `386`, `401`, `657`, `807`, `853`, `856`, `969`, `980`, `981`, `963e`, `900A`, `386A`
+
 # 1 May 2023
 
 ### Bus Stop Changes To Routes: 1

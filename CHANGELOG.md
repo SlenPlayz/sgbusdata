@@ -1,3 +1,33 @@
+# 1 August 2023
+
+### Bus Stop Changes To Routes: 21
+
+- `961M` Woodlands Temp Int ⇄ Lor 1 Geylang Ter: -2
+- `960e` Woodlands Int ⇄ Marina Ctr Ter: -1
+- `70M` Yio Chu Kang Int ⟲ Opp The Ritz-Carlton: -1
+- `36A` Changi Airport PTB2 → Aft Cuscaden Rd: -1
+- `162M` Yio Chu Kang Int ⟲ Aft Promenade Stn Exit C: -1
+- `857` Yishun Int ⟲ Opp The Ritz-Carlton: -1
+- `111` Ghim Moh Ter ⟲ Opp The Ritz-Carlton: -1
+- `106` Bt Batok Int ⇄ Shenton Way Ter: -1
+- `77` Bt Batok Int ⇄ Marina Ctr Ter: -1
+- `75` Gali Batu Ter ⇄ Marina Ctr Ter: -1
+- `36` Changi Airport PTB2 ⟲ Orchard Stn Exit 13: -1
+- `56` Bishan Int ⇄ Marina Ctr Ter: -1
+- `97` Jurong East Int ⇄ Marina Ctr Ter: -1
+- `133` Ang Mo Kio Int ⇄ Shenton Way Ter: -1
+- `195` Marina Ctr Ter ⟲ Queenstown Stn Exit A/D: -1
+- `960` Woodlands Int ⇄ Marina Ctr Ter: -1
+- `195A` Marina Ctr Ter → Tiong Bahru Stn: -1
+- `36B` Lagoon View → Bef Seaside Residences: -1
+- `97e` Jurong East Int ⇄ Marina Ctr Ter: -1
+- `132` Hougang Ctrl Int ⇄ Bt Merah Int: +1, -1
+- `156` Sengkang Int ⇄ Clementi Int: +1, -1
+
+## First/last timings changed
+
+Affected services: `17`, `36`, `56`, `70`, `75`, `77`, `97`, `106`, `111`, `120`, `124`, `131`, `132`, `133`, `156`, `195`, `857`, `960`, `985`, `961M`, `195A`, `97e`, `960e`, `162M`, `70M`, `89e`, `36B`, `36A`
+
 # 1 June 2023
 
 ### Bus Stop Changes To Routes: 2

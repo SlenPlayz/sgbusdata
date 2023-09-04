@@ -2,7 +2,7 @@
 
 > Singapore Bus data
 
-This is a data-only repository to complement [BusRouter SG](https://github.com/cheeaun/busrouter-sg/).
+Fork of https://github.com/cheeaun/sgbusdata to better adapt it to [SG Bus](https://github.com/SlenPlayz/SG-Bus)
 
 ## The data
 

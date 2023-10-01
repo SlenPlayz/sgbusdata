@@ -1,3 +1,51 @@
+# 1 October 2023
+
+## Services count change: 537 ⮕ 539
+
+### Services added: 5
+
+- `230` Toa Payoh Int ⟲ Opp Blk 269A
+- `992` Bt Batok Int ⟲ Blk 111
+- `993` Jurong East Int ⟲ Blk 433C
+- `2B` Changi Village Ter → Bedok Stn Exit A
+- `992A` Bt Batok Int → Blk 111
+
+### Services removed: 3
+
+- `2A` Kampong Bahru Ter → Tanah Merah Stn Exit B
+- `160M` Jurong East Int ⟲ Blk 436A
+- `944` Bt Batok Int ⟲ Blk 436A
+
+### Bus Stop Changes To Routes: 23
+
+- `36` Changi Airport PTB2 ⟲ Orchard Stn Exit 13: +1
+- `56` Bishan Int ⇄ Marina Ctr Ter: +1
+- `75` Gali Batu Ter ⇄ Marina Ctr Ter: +1
+- `77` Bt Batok Int ⇄ Marina Ctr Ter: +1
+- `92` Ghim Moh Ter ⟲ Opp Ayer Rajah Ind Est: +1
+- `97` Jurong East Int ⇄ Marina Ctr Ter: +1
+- `100` S'Goon Int ⇄ Ghim Moh Ter: +2
+- `106` Bt Batok Int ⇄ Shenton Way Ter: +1
+- `111` Ghim Moh Ter ⟲ The Float @ Marina Bay: +3
+- `133` Ang Mo Kio Int ⇄ Shenton Way Ter: +1
+- `195` Marina Ctr Ter ⟲ Queenstown Stn Exit A/D: +1
+- `298` Tampines Nth Int ⟲ Blk 875B: +1
+- `857` Yishun Int ⟲ Opp The Ritz-Carlton: +1
+- `960` Woodlands Int ⇄ Marina Ctr Ter: +1
+- `162M` Yio Chu Kang Int ⟲ Aft Promenade Stn Exit C: +1
+- `195A` Marina Ctr Ter → Tiong Bahru Stn: +1
+- `36A` Changi Airport PTB2 → Aft Cuscaden Rd: +1
+- `36B` Lagoon View → Bef Seaside Residences: +1
+- `70M` Yio Chu Kang Int ⟲ The Float @ Marina Bay: +1
+- `92M` Ghim Moh Ter ⟲ Opp Henry Pk: +1
+- `960e` Woodlands Int ⇄ Marina Ctr Ter: +1
+- `961M` Woodlands Temp Int ⇄ Lor 1 Geylang Ter: +2
+- `97e` Jurong East Int ⇄ Marina Ctr Ter: +1
+
+## First/last timings changed
+
+Affected services: `160M`, `2A`, `944`, `36`, `56`, `75`, `77`, `92`, `97`, `100`, `106`, `111`, `133`, `195`, `298`, `660`, `857`, `960`, `961M`, `195A`, `92M`, `97e`, `960e`, `162M`, `70M`, `36B`, `36A`, `230`, `992`, `993`, `992A`, `2B`
+
 # 1 September 2023
 
 ## Services count change: 535 ⮕ 537

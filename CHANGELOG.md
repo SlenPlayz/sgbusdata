@@ -1,3 +1,23 @@
+# 1 November 2023
+
+## Services count change: 539 ⮕ 541
+
+### Services added: 2
+
+- `102B` Blk 461B → Opp Sengkang Stn/Blk 260A
+- `163B` Sengkang Int → NCS Hub
+
+### Bus Stop Changes To Routes: 4
+
+- `403` Pasir Ris Int ⟲ Aft Pasir Ris Way: +3, -4
+- `118A` Punggol Temp Int → ITE Coll East Adm Blk: +5
+- `883B` Yishun Stn → Opp Blk 590C: +1
+- `969A` Tampines Int → Yishun Stn: +2
+
+## First/last timings changed
+
+Affected services: `89`, `107`, `109`, `132`, `138`, `168`, `170`, `403`, `518`, `655`, `860`, `964`, `78A`, `518A`, `169A`, `169B`, `856A`, `965T`, `856B`, `969A`, `882A`, `883B`, `118A`, `163B`, `102B`
+
 # 1 October 2023
 
 ## Services count change: 537 ⮕ 539

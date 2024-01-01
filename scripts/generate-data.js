@@ -64,11 +64,11 @@ stops
     const stopName = stopNames[number] || details;
     let road;
 
-    stopsDatamall.forEach(s => {
+    stopsDatamall.forEach((s) => {
       if (s.BusStopCode == number) {
-        road = s.RoadName
+        road = s.RoadName;
       }
-    })
+    });
 
     stopsJSON[number] = [round(long, 5), round(lat, 5), stopName, road];
     stopsData[number] = {
@@ -216,9 +216,10 @@ services
             (s) => s.BUS_SEQUENCE === 1,
           ).START_BUS_STOP_NUM;
           const coordinates = BUS_DIRECTION_ONE.reduce((acc, v) => {
-            const line = polyline
-              .decode(v.GEOMETRIES)
-              .map((coords) => coords.reverse());
+            // const line = polyline
+            //   .decode(v.GEOMETRIES)
+            //   .map((coords) => coords.reverse());
+            const line = v.GEOMETRIES;
             if (acc.length && acc[acc.length - 1].join() === line[0].join()) {
               line.shift(); // Remove first coord
             }
@@ -235,9 +236,10 @@ services
             (s) => s.BUS_SEQUENCE === 1,
           ).START_BUS_STOP_NUM;
           const coordinates = BUS_DIRECTION_TWO.reduce((acc, v) => {
-            const line = polyline
-              .decode(v.GEOMETRIES)
-              .map((coords) => coords.reverse());
+            // const line = polyline
+            //   .decode(v.GEOMETRIES)
+            //   .map((coords) => coords.reverse());
+            const line = v.GEOMETRIES;
             if (acc.length && acc[acc.length - 1].join() === line[0].join()) {
               line.shift(); // Remove first coord
             }
@@ -250,6 +252,7 @@ services
           });
         }
       } catch (e) {
+        console.error(e);
         // If fails, read from CityMapper
         try {
           const patchRoute = readFile(`./data/v1/patch/${num}.cm.json`);
@@ -269,7 +272,7 @@ services
 
       if (!fauxError) {
         route.forEach((pattern, i) => {
-          const theRightPattern = patchPatterns.find(
+          let theRightPattern = patchPatterns.find(
             (p) => p.firstStop == pattern.stops[0],
           );
           if (!theRightPattern) {
@@ -277,7 +280,11 @@ services
             // But somehow one of them is missing
             // Affected bus service: 911
             console.warn(`⚠️⚠️⚠️ Bus service ${num} doesn't have pattern ${i}`);
-            return;
+            if (i === 0) {
+              theRightPattern = patchPatterns[0];
+            } else {
+              return;
+            }
           }
           const coordinates = theRightPattern.coordinates;
           routesPolylines[num][i] = coords2polyline(coordinates);
@@ -406,42 +413,39 @@ e = validator.validate(routesGeoJSON, {
   },
 });
 if (e.length) throw e;
-routesGeoJSON.features.forEach(x => {
-  writeFile("./data/v1/routes/" + x.properties.number, x.geometry.coordinates)
-})
-// writeFile('./data/v1/routes.geojson', routesGeoJSON);
-// writeFile('./data/v1/routes.min.geojson', routesGeoJSON);
+writeFile('./data/v1/routes.geojson', routesGeoJSON);
+writeFile('./data/v1/routes.min.geojson', routesGeoJSON);
 
 // Complementary JSONs
 // ===
 
 // Stops JSON
 // Convert hash to [key, value] because the validator doesn't support dynamic keys
-// e = validator.validate(Object.entries(stopsJSON), {
-//   $$root: true,
-//   type: 'array',
-//   empty: false,
-//   items: {
-//     type: 'tuple',
-//     empty: false,
-//     items: [
-//       { type: 'string', empty: false },
-//       {
-//         type: 'tuple',
-//         empty: false,
-//         items: [
-//           { type: 'number' },
-//           { type: 'number' },
-//           { type: 'string', empty: false },
-//           { type: 'string', empty: false },
-//         ],
-//       },
-//     ],
-//   },
-// });
-// if (e.length) throw e;
-// writeFile('./data/v1/stops.json', stopsJSON);
-// writeFile('./data/v1/stops.min.json', stopsJSON);
+e = validator.validate(Object.entries(stopsJSON), {
+  $$root: true,
+  type: 'array',
+  empty: false,
+  items: {
+    type: 'tuple',
+    empty: false,
+    items: [
+      { type: 'string', empty: false },
+      {
+        type: 'tuple',
+        empty: false,
+        items: [
+          { type: 'number' },
+          { type: 'number' },
+          { type: 'string', empty: false },
+          { type: 'string', empty: false },
+        ],
+      },
+    ],
+  },
+});
+if (e.length) throw e;
+writeFile('./data/v1/stops.json', stopsJSON);
+writeFile('./data/v1/stops.min.json', stopsJSON);
 
 // Services JSON
 e = validator.validate(Object.entries(servicesJSON), {
@@ -470,26 +474,29 @@ writeFile('./data/v1/services.json', servicesJSON);
 writeFile('./data/v1/services.min.json', servicesJSON);
 
 // Route Polylines
-// e = validator.validate(Object.entries(routesPolylines), {
-//   $$root: true,
-//   type: 'array',
-//   empty: false,
-//   items: {
-//     type: 'tuple',
-//     empty: false,
-//     items: [
-//       { type: 'string', empty: false },
-//       {
-//         type: 'array',
-//         empty: false,
-//         items: {
-//           type: 'string',
-//           empty: false,
-//         },
-//       },
-//     ],
-//   },
-// });
-// if (e.length) throw e;
-// writeFile('./data/v1/routes.json', routesPolylines);
-// writeFile('./data/v1/routes.min.json', routesPolylines);
+e = validator.validate(Object.entries(routesPolylines), {
+  $$root: true,
+  type: 'array',
+  empty: false,
+  items: {
+    type: 'tuple',
+    empty: false,
+    items: [
+      { type: 'string', empty: false },
+      {
+        type: 'array',
+        empty: false,
+        items: {
+          type: 'string',
+          empty: false,
+        },
+      },
+    ],
+  },
+});
+if (e.length) {
+  // writeFile('./data/v1/routes.error.json', routesPolylines);
+  throw e;
+}
+writeFile('./data/v1/routes.json', routesPolylines);
+writeFile('./data/v1/routes.min.json', routesPolylines);

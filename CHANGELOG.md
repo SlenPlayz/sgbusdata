@@ -1,3 +1,110 @@
+# 27 January 2025
+
+## Stops count change: 5146 ⮕ 5153
+
+### Stops added: 10
+
+- `52421` Blk 12
+- `52431` Blk 5
+- `52531` Opp Blk 210 Mkt/FC
+- `52561` Blk 269A
+- `52571` Blk 268A
+- `52581` Bef Caldecott Stn Exit 4
+- `65581` Opp Blk 683A
+- `65589` Blk 683A
+- `65591` Opp Blk 662A
+- `65599` Blk 662A
+
+### Stops removed: 3
+
+- `13139` The Trillium
+- `51023` After Mount Pleasant Road
+- `55009` Ang Mo Kio Depot
+
+### Stop names changed: 17
+
+- `13119` Opp Great World City ⮕ Great World Stn Exit 3
+- `25199` Bestofire and Thermal ⮕ Rockwool Building Materials
+- `28679` Hitachi Elevator Bldg ⮕ Bef Toh Guan Rd East
+- `44129` Opp Blk 113 ⮕ Sol Acres Condo
+- `45121` Opp S'pore Turf Club ⮕ Opp KF1 Karting Circuit
+- `45129` S'pore Turf Club ⮕ KF1 Karting Circuit
+- `45439` Opp Blk 661 ⮕ Blk 691A
+- `51089` Bef Marymount Convent Sch ⮕ Marymount Convent Sch
+- `52509` Opp Toa Payoh Swim Cplx ⮕ Aft HDB Hub
+- `55231` Opp Sbst Ang Mo Kio Depot ⮕ Liuxun Sanhemiao Tp
+- `55239` Sbst Ang Mo Kio Depot ⮕ Bef AMK St 64
+- `58171` Sembawang Corp Industries ⮕ Aft North Rd
+- `60061` Aft Infineon ⮕ Biotronik
+- `68171` Bef Yishun Ave 8 ⮕ Opp Blk 475A
+- `78061` Opp Pasir Ris Polyclinic ⮕ Blk 104
+- `03241` Mapletree Anson ⮕ Aft Enggor St
+- `07011` Peace Ctr ⮕ Bef Sophia Rd
+
+### Stop locations changed: 2
+
+- `13119` 103.83276,1.29362 ⮕ 103.8325,1.29425
+- `67551` 103.87927,1.39601 ⮕ 103.8804,1.39581
+
+## Services count change: 559 ⮕ 567
+
+### Services added: 8
+
+- `675` Blk 953 / Opp Blk 953 ⇄ Suntec Twr Two / Suntec Twr Three
+- `676` Blk 477A / Opp Blk 477A ⇄ Suntec Twr Two / Suntec Twr Three
+- `677` Opp Blk 110 / Blk 111 ⇄ Suntec Twr Two / Suntec Twr Three
+- `678` Blk 162B / Blk 649 ⇄ Suntec Twr Two / Suntec Twr Three
+- `967` Woodlands Temp Int ⟲ Blk 589
+- `138C` S'pore Zoo → Springleaf Stn Exit 2
+- `182A` Opp Tuas Lk Stn → Bef Tuas Sth Ave 4
+- `298X` Tampines Nth Int ⟲ Blk 875B
+
+### Bus Stop Changes To Routes: 19
+
+- `195A` Aft S'pore Flyer → Tiong Bahru Stn/Plaza: -1
+- `268` Bef AMK St 64 → Liuxun Sanhemiao Tp: -2
+- `175` Clementi Int ⇄ Lor 1 Geylang Ter: -1
+- `75` Gali Batu Ter / Opp Blk 635A ⇄ Bt Merah Int: -1
+- `45` Upp East Coast Ter ⇄ Opp Yio Chu Kang Stadium / Liuxun Sanhemiao Tp: -2
+- `5` Pasir Ris Int ⇄ Bt Merah Int: -1
+- `16` Bedok Int ⇄ Bt Merah Int: -1
+- `132` Hougang Ctrl Int ⇄ Bt Merah Int: -1
+- `156` Buangkok Int ⇄ Clementi Int: -1
+- `195` Aft S'pore Flyer → Promenade Stn/Pan Pacific: -1
+- `265` Liuxun Sanhemiao Tp → Opp Yio Chu Kang Stadium: -2
+- `970` Bt Panjang Int ⇄ Shenton Way Ter: -1
+- `16M` Bedok Int ⇄ Bt Merah Int: -1
+- `268A` Bef AMK St 64 → Techplace 2: -1
+- `193` Boon Lay Int ⇄ Tuas Ter: +1
+- `230` Caldecott Stn Exit 1 → Bef Caldecott Stn Exit 4: +21, -2
+- `114A` Buangkok Int → Blk 998B: +2
+- `84G` Punggol Temp Int ⟲ Aft Northshore Cres: +1
+- `84W` Punggol Temp Int ⟲ Opposite Blk 437B: +1
+
+## Routes changed: 17
+
+- `110` Buangkok Int ⟲ Changi Airport Ter 1
+- `114` Buangkok Int ⟲ Buangkok Sports Pk
+- `156` Buangkok Int ⇄ Clementi Int
+- `175` Clementi Int ⇄ Lor 1 Geylang Ter
+- `114A` Buangkok Int → Blk 998B
+- `60T` Eunos Int → Bedok Int
+- `83T` Punggol Temp Int → Sengkang Int
+- `859T` Sembawang Int → Yishun Int
+- `860T` Yio Chu Kang Int → Yishun Int
+- `675` Blk 953 / Opp Blk 953 ⇄ Suntec Twr Two / Suntec Twr Three
+- `676` Blk 477A / Opp Blk 477A ⇄ Suntec Twr Two / Suntec Twr Three
+- `677` Opp Blk 110 / Blk 111 ⇄ Suntec Twr Two / Suntec Twr Three
+- `678` Blk 162B / Blk 649 ⇄ Suntec Twr Two / Suntec Twr Three
+- `967` Woodlands Temp Int ⟲ Blk 589
+- `138C` S'pore Zoo → Springleaf Stn Exit 2
+- `182A` Opp Tuas Lk Stn → Bef Tuas Sth Ave 4
+- `298X` Tampines Nth Int ⟲ Blk 875B
+
+## First/last timings changed
+
+Affected services: `5`, `11`, `15`, `16`, `45`, `62`, `75`, `82`, `132`, `138`, `156`, `158`, `175`, `193`, `195`, `230`, `265`, `268`, `927`, `970`, `16M`, `195A`, `982E`, `268A`, `114A`, `84G`, `84W`, `675`, `676`, `677`, `678`, `967`, `182A`, `138C`, `298X`
+
 # 1 December 2024
 
 ## Stops count change: 5140 ⮕ 5146
